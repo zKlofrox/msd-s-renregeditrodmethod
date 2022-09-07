@@ -1,0 +1,25 @@
+Windows Registry Editor Version 5.00
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"Tcp1323Opts"=dword:00000001
+"TcpCreateAndConnectTcbRateLimitDepth"=dword:00000000
+"DefaultTTL"=dword:000000ff
+"EnableDCA"=dword:00000001
+"EnablePMTUBHDetect"=dword:00000001
+"EnablePMTUDiscovery"=dword:00000001
+"EnableRSS"=dword:00000001
+"EnableTCPA"=dword:00000000
+"EnableWsd"=dword:00000000
+"SackOpts"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters]
+"TCPNoDelay"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters\OCMsetup]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters\Security]
+"SecureDSCommunication"=dword:00000000
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"NetworkThrottlingIndex"=dword:ffffffff
+"SystemResponsiveness"=dword:00000000
