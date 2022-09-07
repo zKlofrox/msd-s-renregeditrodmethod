@@ -1,3 +1,5 @@
+Windows Registry Editor Version 5.00
+
 [HKLM\System\CurrentControlSet\Services\Tcpip\Parameters]
 "SizReqBuf"=dword:59819
 "TCPInitalRtt"=dword:49697
